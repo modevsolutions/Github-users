@@ -1,0 +1,38 @@
+export default {
+  login: 'modevsolutions',
+  id: 83123435,
+  node_id: 'MDQ6VXNlcjgzMTIzNDM1',
+  avatar_url: 'https://avatars.githubusercontent.com/u/83123435?v=4',
+  gravatar_id: '',
+  url: 'https://api.github.com/users/modevsolutions',
+  html_url: 'https://github.com/modevsolutions',
+  followers_url: 'https://api.github.com/users/modevsolutions/followers',
+  following_url:
+    'https://api.github.com/users/modevsolutions/following{/other_user}',
+  gists_url: 'https://api.github.com/users/modevsolutions/gists{/gist_id}',
+  starred_url:
+    'https://api.github.com/users/modevsolutions/starred{/owner}{/repo}',
+  subscriptions_url:
+    'https://api.github.com/users/modevsolutions/subscriptions',
+  organizations_url: 'https://api.github.com/users/modevsolutions/orgs',
+  repos_url: 'https://api.github.com/users/modevsolutions/repos',
+  events_url: 'https://api.github.com/users/modevsolutions/events{/privacy}',
+  received_events_url:
+    'https://api.github.com/users/modevsolutions/received_events',
+  type: 'User',
+  site_admin: false,
+  name: 'mohaz',
+  company: 'modevsolutions',
+  blog: 'www.modevsolutions.com',
+  location: 'India,Nigeria',
+  email: null,
+  hireable: null,
+  bio: null,
+  twitter_username: null,
+  public_repos: 3,
+  public_gists: 0,
+  followers: 0,
+  following: 0,
+  created_at: '2021-04-24T12:50:03Z',
+  updated_at: '2021-11-06T22:18:32Z',
+};
