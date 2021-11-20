@@ -6,15 +6,13 @@ const Login = () => {
   const { loginWithRedirect } = useAuth0();
   return (
     <Wrapper>
-      <section>
-        <div className='container'>
-          <img src={loginImg} />
-          <h1>github user</h1>
-          <a className='btn' onClick={loginWithRedirect}>
-            login / signup
-          </a>
-        </div>
-      </section>
+      <div className='container'>
+        <img src={loginImg} alt='Github-user' className='svg-image' />
+        <h1>github user</h1>
+        <a className='btn' onClick={loginWithRedirect}>
+          login / signup
+        </a>
+      </div>
     </Wrapper>
   );
 };
@@ -28,7 +26,11 @@ const Wrapper = styled.section`
     text-align: center;
   }
   img {
+    width: 100% !important;
     margin-bottom: 2rem;
+  }
+  .svg-img {
+    width: 100%;
   }
   h1 {
     margin-bottom: 1.5rem;
